@@ -1,0 +1,26 @@
+/*Selector ID: #nombre*/
+/*Selector class: .nombre*/
+/*Selector etiqueta: nombre*/
+/*selector universal: **/
+/*creador de variable: :root*/
+/*fixed deja fijo sin importal el scroll*/
+/*gap espacio entre contenido*/
+/*etiqueta:hover hace el sombredo de link*/
+/*etiqueta:nth-child() filtrar contenido*/
+
+@import "header-nav.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-background: rgb(46, 144, 230);
+  --color-text: #f5f5f5;
+}
+
+nav a:hover{
+  color:black;
+  background-color: red; 
+}
